@@ -12,6 +12,10 @@
     font-family: SFProTextRegular;
     src: url("/fonts/SF-Pro-Text-Regular.otf") format("opentype");
 }
+@font-face {
+    font-family: SFProTextSemiBold;
+    src: url("/fonts/SF-Pro-Text-Semibold.otf") format("opentype");
+}
 
 
 
@@ -60,4 +64,63 @@
 .nav-2 a {
     text-decoration: none;
     color: #094E94;
+}
+
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    width: 100%;
+    height: 700px;
+    background-position: center;
+}
+
+.element1 {
+    background-image: url("/images/hero/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg");
+}
+
+.element2 {
+    background-image: url("/images/hero/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg");
+}
+
+.hero-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 60px 0 60px 0;
+    color: white;
+    font-family: 'SFProTextRegular';
+}
+.details-color {
+    color: #1D1D1F;
+}
+
+.hero-details h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.hero-details p {
+    font-size: 25px;
+}
+
+
+
+
+
+.hero-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 20px;
+    font-family: "SFProTextSemiBold";
+}
+
+.hero-links a {
+    color: #2997FF;
+    text-decoration: none;
 }
