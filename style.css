@@ -579,5 +579,10 @@
     .col-details.active .col-heading {
         display: block;
     }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
   }
 
