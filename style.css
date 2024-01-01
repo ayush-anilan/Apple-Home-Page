@@ -387,8 +387,8 @@
     display: flex;
     justify-content: center;
     font-size: 12px;
-    gap: 190px;
-    padding: 10px 0 10px 0;
+    gap: 130px;
+    padding: 10px;
   }
 
 
@@ -463,9 +463,121 @@
         left: 0;
     }
 
+    .footer {
+        padding: 20px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+    }
+    
+    .col {
+        gap: 0;
+    }
+    
+
+    .col-details:hover .col-heading {
+        display: block;
+    }
+
+    .col-details.active .col-heading {
+        display: block;
+    }
+
     
     
 
 
+  }
+
+  @media only screen and (max-width: 767px) {
+    .footer-copyright {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+    }
+
+    .footer hr{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 70px;
+        width: 12px;
+        height: 30px;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+    .icons {
+        position: relative;
+        padding-top: 5px;
+        left: 70px;
+    }
+
+    .logo {
+        position: relative;
+        right: 100px;
+        padding-top: 5px;
+    }
+
+    .nav-1 .nav-links {
+        position: fixed;
+        left: -100%;
+        gap: 0;
+        flex-direction: column;
+        background-color: #161618;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-1 .nav-item{
+        margin: 16px auto;
+    }
+
+    .nav-1 .nav-links.active{
+        left: 0;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .col {
+        gap: 0;
+    }
+    
+
+    .col-details:hover .col-heading {
+        display: block;
+    }
+
+    .col-details.active .col-heading {
+        display: block;
+    }
   }
 
