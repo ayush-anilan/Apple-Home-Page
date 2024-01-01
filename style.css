@@ -6,15 +6,15 @@
 
 @font-face {
     font-family: SFProText;
-    src: url("/fonts/SF-Pro-Text-Light.otf") format("opentype");
+    src: url("./fonts/SF-Pro-Text-Light.otf") format("opentype");
 }
 @font-face {
     font-family: SFProTextRegular;
-    src: url("/fonts/SF-Pro-Text-Regular.otf") format("opentype");
+    src: url("./fonts/SF-Pro-Text-Regular.otf") format("opentype");
 }
 @font-face {
     font-family: SFProTextSemiBold;
-    src: url("/fonts/SF-Pro-Text-Semibold.otf") format("opentype");
+    src: url("./fonts/SF-Pro-Text-Semibold.otf") format("opentype");
 }
 
 
@@ -110,16 +110,16 @@
 }
 
 .element1 {
-    background-image: url("/images/hero/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg");
+    background-image: url("./images/hero/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg");
 }
 
 .element2 {
     margin-top: 10px;
-    background-image: url("/images/hero/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg");
+    background-image: url("./images/hero/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg");
 }
 .element3 {
     margin-top: 10px;
-    background-image: url("/images/hero/hero_startframe__dbi4flqyio2u_large.jpg");
+    background-image: url("./images/hero/hero_startframe__dbi4flqyio2u_large.jpg");
 }
 
 .hero-details {
@@ -235,22 +235,22 @@
 
 
 .promo-image1{
-    background-image: url("/images/promos/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg");
+    background-image: url("./images/promos/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg");
 }
 .promo-image2{
-    background-image: url("/images/promos/promo_mbp__ek7p477bkp6q_large.jpg");
+    background-image: url("./images/promos/promo_mbp__ek7p477bkp6q_large.jpg");
 }
 .promo-image3{
-    background-image: url("/images/promos/promo_ipad__fioegapg12qi_large.jpg");
+    background-image: url("./images/promos/promo_ipad__fioegapg12qi_large.jpg");
 }
 .promo-image4{
-    background-image: url("/images/promos/promo_airpods_pro_order__d8xv36p4uwae_large.jpg");
+    background-image: url("./images/promos/promo_airpods_pro_order__d8xv36p4uwae_large.jpg");
 }
 .promo-image5{
-    background-image: url("/images/promos/tile_homepod_mini__b73w4z3ljymu_large.jpg");
+    background-image: url("./images/promos/tile_homepod_mini__b73w4z3ljymu_large.jpg");
 }
 .promo-image6{
-    background-image: url("/images/promos/promo_iphone_tradein__bugw15ka691e_large.jpg");
+    background-image: url("./images/promos/promo_iphone_tradein__bugw15ka691e_large.jpg");
 }
 
 .slideshow-container {
