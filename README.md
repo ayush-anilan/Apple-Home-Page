@@ -11,7 +11,7 @@ This project is a clone of the Apple homepage, created using HTML, CSS, and Java
 
 ## Demo
 
-https://ayush-anilan.netlify.app/
+[https://ayush-anilan.netlify.app/](https://ayush-anilan-apple-clone.netlify.app/)
 
 [![localhost-5500.png](https://i.postimg.cc/nhDXb2NC/localhost-5500.png)](https://postimg.cc/nXnFq4FJ)
 
